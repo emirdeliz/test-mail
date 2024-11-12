@@ -1,0 +1,17 @@
+{
+  "name": "test-mail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "@types/nodemailer": "^6.4.16",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.16",
+    "tsc": "^2.0.4",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "run:test": "npx ts-node index.ts"
+  }
+}
