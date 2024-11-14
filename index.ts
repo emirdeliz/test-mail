@@ -28,6 +28,8 @@ const main = async () => {
     subject: "Test email 123",
     html 
   });
+
+  console.log({ response });
 }
 
 main();
